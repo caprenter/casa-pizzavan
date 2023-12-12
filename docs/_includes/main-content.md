@@ -29,4 +29,6 @@ To add a dash of excitement and flavour to your festivities get in touch
 ## 07742117011
 
 # Follow 
-Check out our Facebook & Instagram pages.
+Check out our [Facebook](https://www.facebook.com/profile.php?id=61554133215758) & Instagram pages.
+
+<a href="https://www.facebook.com/profile.php?id=61554133215758"><i class="bi bi-facebook"></i></a><i class="bi bi-instagram"></i>
