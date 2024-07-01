@@ -1,4 +1,66 @@
+body {
+  font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+  color: #93540d;
+}
+.main {
+  justify-content: center;
+  display: flex;
+}
+.sub-head {
+  text-align: center;
+}
+ .main-text {
+  margin :auto;
+  max-width: 80%;
+ }
+ .menu-text {
+  margin: 2em 0;
+  font-size:smaller;
+ }
+
+ .blockquote, blockquote-footer {
+  font-size: larger;
+  font-style: italic;
+ }
 .bi-facebook, .bi-instagram {
     margin-right: 1rem;
     font-size: 4rem;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; 
+    margin: 2em 0;
+  }
+  
+  
+  .gallery a {
+    flex-grow: 1;
+    flex-basis: 125px;
+    max-width: 400px;
+    margin: 5px;
+  }
+  
+  .gallery img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .gallery .image {
+    flex-grow: 1;
+    flex-basis: 125px;
+    max-width: 300px;
+    margin: 5px;
+  }
+  
+  .footer {
+    text-align: center;
+    border-top: 1px solid #93540d;
+    padding-top: 2em;
+    font-size:small;
+  }

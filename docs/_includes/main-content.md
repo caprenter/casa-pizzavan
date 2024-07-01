@@ -1,34 +1,56 @@
+<div class="main" markdown="1">
+![Casa Pizzavan Logo](assets/images/casa-pizzavan-logo.png){:class="img-fluid"}
+</div>
 
-![Casa Pizzavan Logo](assets/images/Casa Pizzavan-logos_black.png){:class="img-responsive"}
+<div class="sub-head" markdown="1">
 
-# Wood-Fired Pizza - Authentic Italian Flavour
+# Hand Crafted Wood-Fired Pizza
 
-## Indulge 
+Wood fired pizzas, 48 hour dough, fresh from the van in North Wales. 
 
-Indulge in the true essence of Italian flavour with our Wood-Fired Pizza Van! 
+Available to hire for your special occasion.
+</div>
 
-## Elevate
-Elevate your gatherings with the irresistible aroma and flavours of traditional wood-fired pizza and the unique touch of our slow-fermented dough.
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>"Thank you for yesterday.<br>Everyone was raving about the pizzas!!<br>Much enjoyed and appreciated by all."</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+   Nicola - <cite title="Source Title">50th Birthday Party</cite>
+  </figcaption>
+</figure>
 
-## We come to you
-Our mobile pizzeria not only brings the rustic charm of **wood-fired cooking** to your events but also features our **special 48-hour fermented dough**. 
 
-## Handmade & Fresh
+{% include gallery.html directory="gallery" %}
+
+<div class="main-text" markdown="1">
+
+**Great events** need **great food**. 
+
+Let us take care of the food, so you can enjoy the celebrations.
+
+Our mobile pizzeria brings **wood-fired cooking** to your events but also features our **special 48-hour fermented dough**. 
+
 Our **hand stretched pizzas** are all made with the **freshest ingredients**. 
 
-## Perfect
-
-Perfect for any occasion
+Perfect for **weddings**, **private functions**, **birthday parties** and **special occasions**.
 
 # Bookings
 
-To add a dash of excitement and flavour to your festivities get in touch
+We are a small reliable family run business. 
 
-## info@casapizzavan.co.uk
+Contact us to discuss your requirements, bespoke menu requests, and to book Casa Pizzavan.
 
-## 07742117011
+## <i class="bi bi-envelope"></i> casapizzavan@gmail.com
+
+## <i class="bi bi-phone"></i> 07742117011
+
+{% include menu.md %}
 
 # Follow 
-Check out our [Facebook](https://www.facebook.com/profile.php?id=61554133215758) & Instagram pages.
+Check out our [Facebook](https://www.facebook.com/profile.php?id=61554133215758) & [Instagram](https://www.instagram.com/casapizzavan/) pages.
 
-<a href="https://www.facebook.com/profile.php?id=61554133215758"><i class="bi bi-facebook"></i></a><i class="bi bi-instagram"></i>
+<a href="https://www.facebook.com/profile.php?id=61554133215758"><i class="bi bi-facebook"></i></a><a href="https://www.instagram.com/casapizzavan/"><i class="bi bi-instagram"></i></a>
+
+</div>
+

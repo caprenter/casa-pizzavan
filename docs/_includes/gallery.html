@@ -1,0 +1,21 @@
+<div class="container gallery">
+{% assign image_files = site.static_files | where: "image", true | | sort: 'date' %}
+{% assign album = "" "" | split: ',' %}
+{% assign directory = include.directory %}
+
+{% for image in image_files %}
+{% if image.path contains 'thumb' %}
+{% continue %}
+{% endif %}
+{% if image.path contains directory %}
+{% assign album = album | push: image %}
+{% endif %}
+{% endfor %}
+
+{% for image in album %}
+
+    {% assign thumbpath = 'thumbnails/' | append: directory %}
+    <a href="{{site.baseurl}}{{image.path}}" data-toggle="lightbox" data-gallery="example-gallery" data-caption="{{ altcaptitle }}"><img src="{{site.baseurl}}{{image.path | replace: directory,thumbpath }}" alt="{{ altcaptitle }}" title="{{ altcaptitle }}" class="img-fluid" /></a>
+
+{% endfor %}
+</div>
