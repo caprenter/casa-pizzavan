@@ -20,7 +20,12 @@ Available to hire for your special occasion.
   </figcaption>
 </figure>
 
+<div class="orders text-center bg-secondary text-white m-5 p-3 rounded-3">
+<h2 class="text-white">Pre-order a Pizza</h2>
+<p>If we're coming to your event, you can pre-order your Pizza and book a timeslot for collection.</p>
+<a class="btn btn-light" href="https://casapizzavan.square.site/">Place a Pre-order</a>
 
+</div>
 {% include gallery.html directory="gallery" %}
 
 <div class="main-text" markdown="1">
